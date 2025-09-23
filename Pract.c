@@ -51,3 +51,12 @@ int main()
       printf("%d\n",x/y/z);
    return 0; 
 }
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	float r;
+	cin>>r; // character input
+	cout<<2*3.14*r;
+}
