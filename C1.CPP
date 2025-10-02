@@ -5,12 +5,12 @@ class Myclass
     int x;
     float y;
     public:
-    Myclas()
+    Myclass()
     {
         x=0;
         y=2;
     }
-    Myclas(const Myclas &other)
+    Myclass(const Myclass &other)
     {
         x= other.x;
         y= other.y;
@@ -26,7 +26,7 @@ int main()
     Myclass m1;
     m1.display();
 
-    Myclas m2=m1;
+    Myclass m2=m1;
     m2.display();
 
     return 0;
