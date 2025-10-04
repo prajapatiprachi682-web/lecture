@@ -1,5 +1,6 @@
 #include <stdio.h>
-int main(){
+int main()
+{
     int num=121;
     int original=num;
     int res=0;
