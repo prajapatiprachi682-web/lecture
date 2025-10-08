@@ -7,7 +7,7 @@ class Parent
 		int n;
 		void print()
 		{
-			cout<<n<<endl
+			cout<<n<<endl;
 		}
 };
 

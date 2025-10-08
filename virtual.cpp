@@ -1,30 +1,43 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 class Animal
 {
-    public:
+public:
     void eat()
     {
-        cout<<"Animal is eating"<<endl;
+        cout << "Animal is eating" << endl;
     }
 };
 
-class Mammal: virtual public Animal
+class Mammal : virtual public Animal
 {
-    public:
+public:
     void run()
     {
-        cout<<"Mammal is runnig end l;"
+        cout << "Mammal is running" << endl;
     }
 };
 
-class Bird:virtual public Animal
+class Bird : virtual public Animal
 {
-    public:
-    void Fly()
+public:
+    void fly()
     {
-        cout<<"Bird is flying"<<endl;
+        cout << "Bird is flying" << endl; 
     }
 };
 
+int main()
+{
+    Mammal m;
+    Bird b;
+
+    m.eat();
+    m.run();
+
+    b.eat();
+    b.fly();
+
+    return 0;
+}
