@@ -1,11 +1,13 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
 
     int num=2456;
     int sum=0;
     while (num>0)
-    { int lastDigit=num%10;
+    { 
+      int lastDigit=num%10;
        sum=sum+lastDigit;
        num=num/10;
           
